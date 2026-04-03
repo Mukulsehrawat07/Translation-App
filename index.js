@@ -1,3 +1,8 @@
+import frFlag from './assets/fr-flag.png'
+import spFlag from './assets/sp-flag.png'
+import jpnFlag from './assets/jpn-flag.png'
+import sendBtn from './assets/send-btn.png'
+
 const toggleEl = document.querySelector('.toggle-btn')
 const translateForm = document.getElementById('translate')
 const translateSection = document.getElementById('translate-section')
@@ -136,15 +141,15 @@ function renderForm() {
             <div id="language-choice">
                 <div>
                     <input type="radio" id="french" name="language" value="french" checked>
-                    <label for="french">French<span><img src="./assets/fr-flag.png"></span></label>
+                    <label for="french">French<span><img src="${frFlag}"></span></label>
                 </div>
                 <div>
                     <input type="radio" id="spanish" name="language" value="spanish">
-                    <label for="spanish">Spanish<span><img src="./assets/sp-flag.png"></span></label>
+                    <label for="spanish">Spanish<span><img src="${spFlag}"></span></label>
                 </div>
                 <div>
                     <input type="radio" id="japanese" name="language" value="japanese">
-                    <label for="japanese">Japanese<span><img src="./assets/jpn-flag.png"></span></label>
+                    <label for="japanese">Japanese<span><img src="${jpnFlag}"></span></label>
                 </div>
             </div>
         </div>
@@ -188,19 +193,19 @@ function renderChatSection() {
             <form id="translate-chat-form">
                 <div id="translate-chat">
                     <input id="chat-text" type="text" name="chat-text" />
-                    <button id="chat-submit" type="submit" disabled><img src="./assets/send-btn.png" /></button>
+                    <button id="chat-submit" type="submit" disabled><img src="${sendBtn}" /></button>
                 </div>
                 <div id="language-choice-chat">
                     <label for="french">
-                        <img src="./assets/fr-flag.png">
+                        <img src="${frFlag}">
                         <input type="radio" id="french" name="language" value="french" checked>
                     </label>
                     <label for="spanish">
-                        <img src="./assets/sp-flag.png">
+                        <img src="${spFlag}">
                         <input type="radio" id="spanish" name="language" value="spanish">
                     </label>
                     <label for="japanese">
-                        <img src="./assets/jpn-flag.png">
+                        <img src="${jpnFlag}">
                         <input type="radio" id="japanese" name="language" value="japanese">
                     </label>
                 </div>
