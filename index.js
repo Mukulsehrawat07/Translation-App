@@ -136,15 +136,15 @@ function renderForm() {
             <div id="language-choice">
                 <div>
                     <input type="radio" id="french" name="language" value="french" checked>
-                    <label for="french">French<span><img src="/assets/fr-flag.png"></span></label>
+                    <label for="french">French<span><img src="./assets/fr-flag.png"></span></label>
                 </div>
                 <div>
                     <input type="radio" id="spanish" name="language" value="spanish">
-                    <label for="spanish">Spanish<span><img src="/assets/sp-flag.png"></span></label>
+                    <label for="spanish">Spanish<span><img src="./assets/sp-flag.png"></span></label>
                 </div>
                 <div>
                     <input type="radio" id="japanese" name="language" value="japanese">
-                    <label for="japanese">Japanese<span><img src="/assets/jpn-flag.png"></span></label>
+                    <label for="japanese">Japanese<span><img src="./assets/jpn-flag.png"></span></label>
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@ function renderChatSection() {
             <form id="translate-chat-form">
                 <div id="translate-chat">
                     <input id="chat-text" type="text" name="chat-text" />
-                    <button id="chat-submit" type="submit" disabled><img src="/assets/send-btn.png" /></button>
+                    <button id="chat-submit" type="submit" disabled><img src="./assets/send-btn.png" /></button>
                 </div>
                 <div id="language-choice-chat">
                     <label for="french">
