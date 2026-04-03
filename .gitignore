@@ -1,0 +1,10 @@
+.env
+# Local Netlify folder
+.netlify
+
+# Deno lock file (auto-generated)
+deno.lock
+
+# Vite (if you re-add it later)
+node_modules
+dist
