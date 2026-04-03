@@ -1,0 +1,14 @@
+{
+  "name": "translation-app",
+  "description": "Translation app using OpenAI and Netlify Functions",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
